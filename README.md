@@ -53,3 +53,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 streamlit run app.py
 ```
 ### 6. Переходим по ссылке (http://localhost:8501), если нас не перебросило автоматически
+
+## ССЫЛКИ
+[Streamlit-приложение](https://animalrecognition-front.onrender.com)
