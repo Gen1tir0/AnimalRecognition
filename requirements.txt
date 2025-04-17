@@ -5,3 +5,4 @@ uvicorn==0.23.2
 scikit-learn==1.6.1
 opencv-python
 pillow
+python-multipart
