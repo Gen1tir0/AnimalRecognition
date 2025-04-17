@@ -4,7 +4,7 @@ from PIL import Image
 from io import BytesIO
 from streamlit_drawable_canvas import st_canvas
 
-URL = "http://127.0.0.1:8000/predict/"
+URL = "https://animalrecognition-a2sd.onrender.com/predict/"
 
 
 def get_prediction(image_data):
