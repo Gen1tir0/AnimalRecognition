@@ -56,3 +56,9 @@ streamlit run app.py
 
 ## ССЫЛКИ
 [Streamlit-приложение](https://animalrecognition-front.onrender.com)
+[FastAPI-приложение](https://animalrecognition-a2sd.onrender.com)
+
+## ПРИМЕР ЗАПРОСА
+
+![image](https://github.com/user-attachments/assets/7ab50883-23e3-40e6-96aa-c255adb2bf8a)
+![image](https://github.com/user-attachments/assets/bba03ce3-523a-4dd2-91f9-e665a730609e)
