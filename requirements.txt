@@ -6,3 +6,6 @@ scikit-learn==1.6.1
 opencv-python
 pillow
 python-multipart
+streamlit
+matplotlib
+streamlit_drawable_canvas
