@@ -6,7 +6,7 @@ from PIL import Image
 
 def image_preprocess(byte_image):
     image = np.asarray(Image.open(BytesIO(byte_image)))
-    resized = cv2.resize(image, (224, 224))
+    resized = cv2.resize(image, (64, 64))
     expanded = np.reshape(resized, (1, 224, 224, 3))
     print(expanded.shape)
     return expanded

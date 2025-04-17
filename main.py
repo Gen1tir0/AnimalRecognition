@@ -5,8 +5,7 @@ import numpy as np
 
 from image_preprocess import image_preprocess
 
-model = load_model("Trained_Resnet.h5", compile=False)
-model.save('Trained_Resnet.h5')
+model = load_model("small_model.h5", compile=False)
 labels = {0: 'Buffalo', 1: 'Elephant', 2: 'Rhino', 3: 'Zebra'}
 
 app = FastAPI()
