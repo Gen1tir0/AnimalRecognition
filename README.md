@@ -1,6 +1,6 @@
 # 4-class Animal Recognition
 ## Что это за проект? ##
-Учебный проект, представляющий собой систему для классификации животных - *носорог, буйвол, зебра, слон* с использованием модели глубокого обучения на основе ResNet50. Именно эта модель показала себя лучше всего по итогам сравнения\
+Учебный проект, представляющий собой систему для классификации животных - *носорог, буйвол, зебра, слон* с использованием достаточно простой CNN. Данная модель находится на 2 месте.\
 Frontend - **Streamlit** \
 Backend - **FastAPI** 
 
@@ -37,22 +37,21 @@ Backend - **FastAPI**
 ```shell
 git clone https://github.com/Gen1tir0/AnimalRecognition.git
 ```
-### 2. Скачиваем файл с обученной моделью с Google-диска: [(тык)](https://drive.google.com/file/d/1cj29PP584LGyIaY0LZDxTwCX-pL9amht/view?usp=sharing) и помещаем его в папку проекта. Модель, используемая в данном проекте, не пропускается из-за размера
-### 3. Создаем виртуальное окружение и активируем его
+### 2. Создаем виртуальное окружение и активируем его
 ```shell
 conda create --n my_venv python=3.10
 conda activate my_venv
 ```
-### 4. Устанавливаем зависимости из requirements.txt
+### 3. Устанавливаем зависимости из requirements.txt
 ```shell
 conda install --file requirements.txt
 ```
-### 5. Запускаем backend (uvicorn) и frontend (streamlit)
+### 4. Запускаем backend (uvicorn) и frontend (streamlit)
 ```shell
 uvicorn main:app --host 0.0.0.0 --port 8000
 streamlit run app.py
 ```
-### 6. Переходим по ссылке (http://localhost:8501), если нас не перебросило автоматически
+### 5. Переходим по ссылке (http://localhost:8501), если нас не перебросило автоматически
 
 ## ССЫЛКИ
 [Streamlit-приложение](https://animalrecognition-front.onrender.com)
