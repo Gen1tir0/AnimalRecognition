@@ -59,10 +59,12 @@ streamlit run app.py
 
 ## ПРИМЕР ЗАПРОСА
 
-![image](https://github.com/user-attachments/assets/7ab50883-23e3-40e6-96aa-c255adb2bf8a)
+![image](https://github.com/user-attachments/assets/42e258bf-1991-4bc0-afeb-f5b2dfa3800e)
+
 
 Отправленное изображение
-![maxresdefault (2)](https://github.com/user-attachments/assets/75d8a8c0-0546-445a-b14e-ede5b85cbcdd)
 
-![image](https://github.com/user-attachments/assets/769c3b5a-714f-417f-be18-59adeddcfe52)
+![1200px-African_Buffalo_(Syncerus_caffer)_cow_ _(50118835268)](https://github.com/user-attachments/assets/766e251b-0890-4bcd-b864-e1ce9b1f764d)
+
+
 
