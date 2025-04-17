@@ -33,14 +33,14 @@ Backend - **FastAPI**
 
 ## Локальное развертывание
 **Anaconda**
-### 1. Клонируем репозиторий
-```shell
-git clone https://github.com/Gen1tir0/AnimalRecognition.git
-```
-### 2. Создаем виртуальное окружение и активируем его
+### 1. Создаем виртуальное окружение и активируем его
 ```shell
 conda create --n my_venv python=3.10
 conda activate my_venv
+```
+### 2. Клонируем репозиторий
+```shell
+git clone https://github.com/Gen1tir0/AnimalRecognition.git
 ```
 ### 3. Устанавливаем зависимости из requirements.txt
 ```shell
