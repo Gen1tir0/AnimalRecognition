@@ -54,10 +54,15 @@ streamlit run app.py
 ### 5. Переходим по ссылке (http://localhost:8501), если нас не перебросило автоматически
 
 ## ССЫЛКИ
-[Streamlit-приложение](https://animalrecognition-front.onrender.com)
+[Streamlit-приложение](https://animalrecognition-front.onrender.com)\
 [FastAPI-приложение](https://animalrecognition-a2sd.onrender.com)
 
 ## ПРИМЕР ЗАПРОСА
 
 ![image](https://github.com/user-attachments/assets/7ab50883-23e3-40e6-96aa-c255adb2bf8a)
+
+Отправленное изображение
 ![image](https://github.com/user-attachments/assets/bba03ce3-523a-4dd2-91f9-e665a730609e)
+
+![image](https://github.com/user-attachments/assets/769c3b5a-714f-417f-be18-59adeddcfe52)
+
