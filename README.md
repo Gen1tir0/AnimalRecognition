@@ -32,26 +32,30 @@ Backend - **FastAPI**
 Стоит отметить - у данной нейросети странное понимание буйволов
 
 ## Локальное развертывание
-**Anaconda**
-### 1. Создаем виртуальное окружение и активируем его
-```shell
-conda create --n my_venv python=3.10
-conda activate my_venv
-```
-### 2. Клонируем репозиторий
+
+### 1. Клонируем репозиторий
 ```shell
 git clone https://github.com/Gen1tir0/AnimalRecognition.git
 ```
-### 3. Устанавливаем зависимости из requirements.txt
+### 2. Переходим в директорию скопированного репозитория
 ```shell
-conda install --file requirements.txt
+cd AnimalRecognition
 ```
-### 4. Запускаем backend (uvicorn) и frontend (streamlit)
+### 3. Создаем виртуальное окружение в директории и активируем его
+```shell
+python -m venv .venv
+.venv\Scripts\activate 
+```
+### 4. Устанавливаем зависимости из requirements.txt
+```shell
+pip install -r requirements.txt
+```
+### 5. Запускаем backend (uvicorn) и frontend (streamlit)
 ```shell
 uvicorn main:app --host 0.0.0.0 --port 8000
 streamlit run app.py
 ```
-### 5. Переходим по ссылке (http://localhost:8501), если нас не перебросило автоматически
+### 6. Переходим по ссылке (http://localhost:8501), если нас не перебросило автоматически
 
 ## ССЫЛКИ
 [Streamlit-приложение](https://animalrecognition-front.onrender.com)\
